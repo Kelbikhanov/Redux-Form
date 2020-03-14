@@ -1,0 +1,25 @@
+.input_waiting {
+    outline: none;
+    width: 343px;
+    height: 40px;
+    border: 2px solid #FFA500;
+    box-sizing: border-box;
+    border-radius: 20px;
+    ont-family: Helvetica;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-left: 17px;
+}
+.waiting_p {
+padding-left: 14px;
+}
+
+.waiting_p  input::placeholder {
+    color: red;
+}
+.waiting_p  input::-webkit-input-placeholder {color:#FFA500;}
+.waiting_p  input::-moz-placeholder {color:#FFA500;}
+.waiting_p  input:-moz-placeholder {color:#FFA500;}
+.waiting_p  input:-ms-input-placeholder {color:#FFA500;}

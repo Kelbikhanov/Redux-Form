@@ -1,0 +1,42 @@
+
+.center {
+    padding-left: 9px;
+}
+input[type="checkbox"]
+{
+    border: 1px solid #5E5E7B;
+    position: relative;
+    width: 343px;
+    height: 40px;
+    -webkit-appearance: none;
+    background:#fff;
+    outline: none;
+    border-radius: 20px;
+    transition: .5s;
+}
+input:checked[type="checkbox"]
+{
+
+    background: #fff;
+}
+input[type="checkbox"]:before
+{
+    text-align: center;
+    content: 'РАЗОВЫЙ';
+    color: #fff;
+    position:absolute;
+    width: 161.17px;
+    height: 21px;
+    padding-top: 9.5px;
+    border-radius: 20px;
+    top: 3.3px;
+    left: 5px;
+    background: #5E5E7B;
+    transition: .3s;
+}
+input:checked[type="checkbox"]:before
+{
+    text-align: center;
+    content: 'ПОСТОЯННЫЙ';
+    left:175px;
+}
